@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>User Managment Dash bord</title>
+      <!-- Icon Link CDN-->
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous" />
+      <link rel="stylesheet" href="main.css">
+      <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+
+      <div class="container-top">
+
+            <div class="top-section">
+                  <h3 id="totalProject">23 <i class="fas fa-tasks"></i></h3>
+                  <p>Total project</p>
+            </div>
+            <div class="top-section">
+                  <h3>23 <i class="fas fa-clipboard-list"></i></h3>
+                  <p>Total project</p>
+            </div>
+            <div class="top-section">
+                  <h3>23 <i class="fas fa-briefcase"></i></h3>
+                  <p>Total project</p>
+            </div>
+            <div class="top-section">
+                  <input type="text">
+                  <button class="btn"> <i class="fas fa-search"></i> Search</button>
+            </div>
+
+      </div>
+
+      <!---End top sectopn-->
+
+
+      <table id="customers" class="project">
+
+
+
+            <tr class="table-heading">
+                  <td class="div.heading">project</td>
+                  <td class="div.heading">Starting date</td>
+                  <td class="div.heading">Status</td>
+                  <td class="div.heading">Team</td>
+                  <td class="div.heading">progress</td>
+                  <td class="div.heading">Action</td>
+            </tr>
+
+
+            <tr class="table-row">
+                  <td>2 Admin Design</td>
+                  <td>02/5/2021</td>
+                  <td>compleat</td>
+                  <td class="avtar">
+                        <img src="https://i.pravatar.cc/101
+                               " alt="">
+                        <img src="https://i.pravatar.cc/110
+                               " alt="">
+                  </td>
+                  <td class="progress">
+                        <div class="progres-line">
+                              <div class="progress-status" style="width:52%;background-color:yellow;"></div>
+                        </div>
+                  </td>
+                  <td>
+                        <button onclick="edit()"><i class="fas fa-edit"></i> Edit</button>
+                        <button class="deleteRow"> <i class="fas fa-trash-alt"></i> </button>
+                  </td>
+            </tr>
+
+
+            <tr class="table-row">
+                  <td>New Admin Design</td>
+                  <td>02/5/2021</td>
+                  <td>compleat</td>
+                  <td class="avtar ">
+                        <img src="https://i.pravatar.cc/201" class="tooltip">
+                        <img src="https://i.pravatar.cc/202
+                               " alt="">
+                        <img src="https://i.pravatar.cc/203
+                               " alt="">
+                  </td>
+                  <td class="progress">
+                        <div class="progres-line">
+                              <div class="progress-status"></div>
+                        </div>
+                  </td>
+                  <td>
+                        <button><i class="fas fa-edit"></i> Edit</button>
+                        <button class="deleteRow"> <i class="fas fa-trash-alt"></i> </button>
+                  </td>
+            </tr>
+
+            <tr class="table-row">
+                  <td>New Admin Design</td>
+                  <td>02/5/2021</td>
+                  <td>compleat</td>
+                  <td class="avtar ">
+                        <img src="https://i.pravatar.cc/301" class="tooltip">
+                        <img src="https://i.pravatar.cc/302
+                               " alt="">
+
+                  </td>
+                  <td class="progress">
+                        <div class="progres-line">
+                              <div class="progress-status"></div>
+                        </div>
+                  </td>
+                  <td>
+                        <i class="fas fa-edit"></i>
+                        <button class="deleteRow"> <i class="fas fa-trash-alt"></i> </button>
+                  </td>
+            </tr>
+
+
+
+
+            <tr class="table-row">
+                  <td>New Admin Design</td>
+                  <td>02/5/2021</td>
+                  <td>compleat</td>
+                  <td class="avtar ">
+                        <img src="https://i.pravatar.cc/401" class="tooltip">
+                        <img src="https://i.pravatar.cc/402
+                               " alt="">
+                        <img src="https://i.pravatar.cc/403
+                               " alt="">
+                        <img src="https://i.pravatar.cc/404
+                               " alt="">
+                  </td>
+                  <td class="progress">
+                        <div class="progres-line">
+                              <div class="progress-status"></div>
+                        </div>
+                  </td>
+                  <td>
+                        <button> <i class="fas fa-edit"></i> Edit</button>
+                        <button class="deleteRow"> <i class="fas fa-trash-alt"></i> </button>
+            </tr>
+
+
+            <tr class="table-row">
+                  <td>New Admin Design</td>
+                  <td>02/5/2021</td>
+                  <td>compleat</td>
+                  <td class="avtar ">
+                        <img src="https://i.pravatar.cc/105" class="tooltip">
+                        <img src="https://i.pravatar.cc/99
+                               " alt="">
+                        <img src="https://i.pravatar.cc/98
+                               " alt="">
+                  </td>
+                  <td class="progress">
+                        <div class="progres-line">
+                              <div class="progress-status"></div>
+                        </div>
+                  </td>
+                  <td>
+                        <i class="fas fa-edit"></i>
+                        <button class="deleteRow"> <i class="fas fa-trash-alt"></i> </button>
+                  </td>
+            </tr>
+
+
+            <tr class="table-row">
+                  <td>New Admin Design</td>
+                  <td>02/5/2021</td>
+                  <td>compleat</td>
+                  <td class="avtar ">
+                        <img src="https://i.pravatar.cc/105" class="tooltip">
+                        <img src="https://i.pravatar.cc/99
+                               " alt="">
+                        <img src="https://i.pravatar.cc/98
+                               " alt="">
+                  </td>
+                  <td class="progress">
+                        <div class="progres-line">
+                              <div class="progress-status"></div>
+                        </div>
+                  </td>
+                  <td>
+                        <i class="fas fa-edit"></i>
+                        <button class="deleteRow"> <i class="fas fa-trash-alt"></i> </button>
+                  </td>
+            </tr>
+
+
+
+
+
+      </table>
+
+
+      </div>
+
+
+      <script src="main.js"></script>
+</body>
+
+</html>
