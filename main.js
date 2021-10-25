@@ -1,8 +1,8 @@
 let projectRow = document.getElementsByClassName("table-row");
-const projectData = projectRow[0].children;
+const projectData = projectRow.children;
 let size = projectData.length;
 const deleteRow = document.getElementsByClassName("deleteRow");
-console.log(deleteRow)
+
 
 
 /* Updating projact detail  */
@@ -18,7 +18,3 @@ for (let i = 0; i < deleteRow.length; i++) {
       ))
 };
 
-function updateProjectData() {
-      ProjectNum = projectData.length;
-      document.getElementById("totalProject").innerHTML = ProjectNum;
-}
