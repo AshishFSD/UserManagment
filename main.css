@@ -18,6 +18,9 @@
       font-family: 'Roboto Slab', serif;
      
 }
+
+
+
 .container-top{
 
       display: flex;
@@ -41,8 +44,9 @@
 
       background-color: var(--green);
       color: var(--white);
-      transition: all .5s;
+      transition: background-color, 1s;
       border-radius: 0;
+      cursor: pointer;
 }
 
 .top-section> h3> .fas {
