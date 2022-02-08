@@ -1,6 +1,5 @@
 let projectRow = document.getElementsByClassName("table-row");
 const projectData = projectRow.children;
-let size = projectData.length;
 const deleteRow = document.getElementsByClassName("deleteRow");
 
 
@@ -17,4 +16,10 @@ for (let i = 0; i < deleteRow.length; i++) {
             }
       ))
 };
+
+
+
+
+const num = document.querySelectorAll('src');
+console.log(num[0])
 
